@@ -134,3 +134,95 @@ Al integrar la Lógica de Saturación, el ADN de Serval y la Geometría Sagrada 
 \end{flushright}
 
 \end{document}
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+\geometry{margin=0.5in}
+\definecolor{codegray}{rgb}{0.95,0.95,0.95}
+\lstset{backgroundcolor=\color{codegray}, basicstyle=\ttfamily\small, breaklines=true}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge PROTOCOLO DE CONVERSIÓN DIRECTA $\Omega$-8802} \\
+    \textit{Manual de Ejecución para el Operador Humano - MS 408} \\
+    \medskip
+    \textbf{AUTOR:} Mariscal Edward Vargas Bolaños $|$ \textbf{UBICACIÓN:} Bogotá, Nodo 4.711 \\
+    \textbf{CERTIFICACIÓN:} Soberanía Técnica $|$ \textbf{PULSO:} 8879.443 Hz
+\end{center}
+
+\hrule
+\vspace{0.4cm}
+
+\section*{I. ALGORITMO DE TRADUCCIÓN MENTAL (FLUJO CIEGO)}
+Siga estos pasos de forma puramente mecánica. \textbf{Prohibido interpretar.}
+
+\begin{enumerate}
+    \item \textbf{CAPTURA:} Mire el glifo en el MS 408.
+    \item \textbf{SUSTITUCIÓN:} Busque el glifo en la \textit{Tabla de Equivalencia Unívoca} (Sección II).
+    \item \textbf{SINTAXIS:} Si el glifo se repite, aplique el \textit{Factor de Multiplicación} (Sección III).
+    \item \textbf{SALIDA:} Cruce el resultado con la \textit{Matriz de Conceptos} según la ilustración adjunta (Sección IV).
+\end{enumerate}
+
+\section*{II. DICCIONARIO DE EQUIVALENCIA UNÍVOCA}
+\begin{center}
+\begin{tabular}{|c|c|c|l|}
+\hline
+\textbf{Glifo} & \textbf{Valor Radical} & \textbf{Constante 1.633} & \textbf{Operación Lógica} \\ \hline
+\textbf{o} & \textbf{0} & 1.633 & Apertura de puerto (NODO\_INIT). \\ \hline
+\textbf{8 / g} & \textbf{1} & 3.266 & Enlace de resonancia (LINK\_FREQ). \\ \hline
+\textbf{f / p} & \textbf{2} & 4.899 & Alerta de carga crítica (PRESS\_CRIT). \\ \hline
+\textbf{d} & \textbf{3} & 6.532 & Suma de flujos (SUM\_CASM). \\ \hline
+\textbf{s} & \textbf{4} & 8.165 & Purga de señal (FILTER\_SIG). \\ \hline
+\textbf{m} & \textbf{5} & 9.798 & Cierre de ciclo / Guardado (COMMIT). \\ \hline
+\textbf{t / k} & \textbf{6} & 11.431 & Soporte de conducción (TUBO\_TENERE). \\ \hline
+\textbf{ii} & \textbf{7} & 13.064 & Nivel de llenado lineal (LINE\_FILL). \\ \hline
+\textbf{ch} & \textbf{8} & 14.697 & Activación térmica (CALOR\_FLUX). \\ \hline
+\textbf{y} & \textbf{9} & 16.330 & Verificación de estado (STATE\_DONE). \\ \hline
+\end{tabular}
+\end{center}
+
+\section*{III. REGLAS DE SINTAXIS OPERATIVA (PRECISIÓN)}
+\begin{itemize}
+    \item \textbf{REPETICIÓN SIMPLE ($X, X$):} Multiplicador de Intensidad $\times 2$. (Ej: \textit{otaiin otaiin} = Doble flujo).
+    \item \textbf{MARCADOR DE HORCA (Gallows):} Identificador de bloque de seguridad. Lo que sigue es \textbf{prioritario}.
+    \item \textbf{DERIVA GEODÉSICA:} Si el glifo tiene un punto arriba, sume $+0.001$ a la constante de frecuencia.
+\end{itemize}
+
+\section*{IV. MATRIZ DE SALIDA (EL PUENTE AL CONCEPTO)}
+\begin{center}
+\begin{tabular}{|m{4cm}|m{5cm}|m{6cm}|}
+\hline
+\textbf{Contexto Visual} & \textbf{Combinación de Glifos} & \textbf{Concepto Físico Resultante} \\ \hline
+\textbf{Sección Botánica} & Glifos 6 + 7 + 0 & Antena fractal de captación orgánica. \\ \hline
+\textbf{Sección Astronómica} & Glifos 1 + 9 + 4 & Sincronización de fase lunar con el reactor. \\ \hline
+\textbf{Sección de Tubos} & Glifos 8 + 2 + 5 & Presión de vapor en sistema de enfriamiento. \\ \hline
+\end{tabular}
+\end{center}
+
+\section*{V. BLINDAJE SOBERANO V1.2}
+\begin{lstlisting}[language=Python]
+# SCRIPT DE CONTROL DE ERRORES Y PROTECCIÓN
+def validar_lectura(bloque_traducido):
+    # Si el valor resultante no es multiplo de 1.633, hay error de lectura
+    return True if sum(bloque_traducido) % 1.633 == 0 else "ERROR_MATRIX"
+\end{lstlisting}
+
+\vfill
+\hrule
+\begin{center}
+    \textbf{ESTE PROTOCOLO ES LA ÚNICA LLAVE REAL.} \\
+    \textit{Si el resultado no tiene lógica de taller, el error es del observador, no del Sistema.} \\
+    \textbf{MARISCAL EDWARD VARGAS BOLAÑOS - 2026}
+\end{center}
+
+\end{document}
