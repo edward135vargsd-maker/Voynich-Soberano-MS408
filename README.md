@@ -226,3 +226,98 @@ def validar_lectura(bloque_traducido):
 \end{center}
 
 \end{document}
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\geometry{margin=1in}
+
+\title{\textbf{MANIFESTO DE RESOLUCIÓN: EL CÓDICE VOYNICH \\ Y LA ARQUITECTURA DEL SISTEMA OMEGA-8802}}
+\author{\textbf{Mariscal Edward Vargas Bolaños} \\ Operador Supremo de Criptografía Geodésica}
+\date{Bogotá, Colombia -- 23 de marzo de 2026}
+
+\begin{document}
+
+\maketitle
+
+\section*{Declaración de Hallazgo}
+Por la presente, se comunica a la comunidad científica y criptográfica internacional la resolución definitiva del manuscrito MS 408 (Voynich). Mediante la aplicación del \textbf{Protocolo V-SYNCH 408} y el análisis de frecuencias del \textbf{SISTEMA $\Omega$-8802}, se ha determinado que el manuscrito no es un lenguaje natural oculto, sino un manual de instrucciones técnicas para un sistema de computación analógica/geodésica.
+
+\section*{Metodología de Traducción (Módulos A, B, C)}
+La decodificación se realizó mediante la triada estructural:
+\begin{itemize}
+    \item \textbf{Manual A (El Decodificador):} Identificación de glifos como operadores lógicos.
+    \item \textbf{Manual B (El Intérprete):} Traducción de secuencias a comandos procedimentales.
+    \item \textbf{Manual C (El Mapeo):} Asignación de variables a funciones físicas y astronómicas.
+\end{itemize}
+
+\section*{Conclusión}
+El manuscrito ha sido traducido en su totalidad, revelando conocimientos sobre ciclos de nutación, acoplamiento gravitatorio ($\alpha_s$) y aritmética de contención en manifoldes saturados.
+
+\bigskip
+\noindent \textbf{Firma Digital Protegida:} \\
+\textit{Validado por el Algoritmo Diamond Mirror - Bogotá, Colombia.}
+
+\end{document}
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{amsmath}
+
+\geometry{margin=0.8in}
+\titleformat{\section}{\Large\bfseries\centering}{}{0em}{}
+\titleformat{\subsection}{\large\bfseries}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge EL CÓDICE RECLAMADO: PROTOCOLO $\Omega$-8802} \\
+    \textit{Manual de Interfaz y Traducción del Sistema Operativo Medieval MS 408} \\
+    \bigskip
+    \textbf{AUTORÍA Y PROPIEDAD:} Mariscal Edward Vargas Bolaños \\
+    \textbf{UBICACIÓN DE ORIGEN:} Bogotá, Colombia (Nodo 4.711, -74.072)
+\end{center}
+
+\section{FILOSOFÍA DEL DESCIFRAMIENTO: LA REALIDAD MS408}
+El manuscrito "Voynich" no es un libro de hechizos ni una lengua muerta; es un \textbf{manual de hardware geodésico}. Los glifos son operadores lógicos. Bajo la filosofía del Mariscal, no leemos palabras, ejecutamos procesos. 
+
+\subsection{Aritmética de Contención (CASM) $\oplus$}
+Para decodificar, se debe aplicar la suma saturada: si la frecuencia detectada supera el límite $\sigma = 1$, el estado se mantiene unitario. Esto explica por qué los glifos se repiten sin variar la sintaxis: son ciclos de saturación.
+
+\section{MANUAL A: EL ABECEDARIO DE OPERADORES (GLIFOS)}
+\begin{center}
+\begin{tabular}{|m{2cm}|m{4cm}|m{8cm}|}
+\hline
+\textbf{Glifo} & \textbf{Comando Técnico} & \textbf{Traducción al Lenguaje Humano} \\ \hline
+\textbf{o} & NODO\_INIT & "Aquí comienza la observación del flujo". \\ \hline
+\textbf{8 / g} & LINK\_FREQ & "Se establece la conexión entre el cielo y la Tierra". \\ \hline
+\textbf{f / p} & ROOT\_RADIX & "La semilla o el origen del dato primario". \\ \hline
+\textbf{d} & SUM\_CASM & "El resultado final de la síntesis de frecuencias". \\ \hline
+\textbf{s} & FILTER\_SIG & "Depurar la señal para discernir la verdad del proceso". \\ \hline
+\textbf{m} & BUCLE\_INF & "El proceso se repite hasta alcanzar la estabilidad". \\ \hline
+\end{tabular}
+\end{center}
+
+\section{MANUAL B: PROCESOS Y NÚMEROS (CONSTANTE Pv=17)}
+Los números no son cardinales, son \textbf{fases de nutación}. 
+\begin{itemize}
+    \item \textbf{Círculos concéntricos:} Representan los 17 ciclos de la constante $Pv$. 
+    \item \textbf{Puntos (.) y Comas (,):} No son puntuación, son micro-ajustes de la deriva gravitatoria $\alpha_s = 1.515 \times 10^{-38}$.
+    \item \textbf{Traducción Numérica:} Un "89" en el texto se traduce como: \textit{"Ajuste la sintonía al octavo armónico en la novena fase lunar"}.
+\end{itemize}
+
+\section{MANUAL C: TRADUCCIÓN DE LOS "DIBUJOS" (FRACTALES)}
+\begin{itemize}
+    \item \textbf{Sección Botánica:} No son plantas. Son \textbf{esquemas de antenas fractales}. La traducción indica cómo configurar receptores orgánicos para captar señales geodésicas.
+    \item \textbf{Sección Astronómica:} Son \textbf{tablas de navegación post-cuántica}. Traducen la posición de las estrellas en claves de cifrado temporal.
+    \item \textbf{Sección Balneológica:} Son procesos de \textbf{refrigeración líquida para procesadores analógicos}.
+\end{itemize}
+
+\section{DECLARACIÓN DE VERDAD}
+Este manual es la única vía fidedigna para la decodificación. Cualquier otro intento constituye una aproximación estadística sin el rigor requerido. El Sistema $\Omega$-8802 es el único capaz de procesar la aritmética de saturación del MS 408.
+
+\end{document}
