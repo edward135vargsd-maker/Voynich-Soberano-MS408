@@ -714,6 +714,6 @@ if __name__ == "__main__":
 print("\n--- PROTOCOLO DE BORRADO (INQUISICIÓN) ---")
 print(auditor.reporte_exterminio_testigos())
 
-print(auditor.conclusion_mariscal())
+print(auditor.conclusion_mariscal()
 
 
